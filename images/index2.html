@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+  body {
+    background-image: url("rog3.jpg");
+   background-repeat: no-repeat;
+    width: 20px;
+    height: 100px;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+  }
+
+  @keyframes example {
+    0%   {background-image:url("rog3.jpg"); left:0px; top:0px;}
+    25%  {background-image:url("rog3.jpg"); left:200px; top:0px;}
+    50%  {background-image:url("rog3.jpg"); left:200px; top:200px;}
+    75%  {background-image:url("rog3.jpg"); left:0px; top:200px;}
+    100% {background-image:url("rog3.jpg"); left:0px; top:0px;}
+  }
+</style>
+  <body>
+</body>
+</html>

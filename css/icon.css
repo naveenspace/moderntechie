@@ -1,0 +1,38 @@
+.fa {
+  padding : 3px 15px 5px 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+margin-left: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.top
+{
+  margin-left: 28%;
+}
+.navbar-toggler {
+    z-index: 1;
+}
